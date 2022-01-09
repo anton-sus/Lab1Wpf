@@ -13,10 +13,7 @@
                 <GradientStop Color="#FFFBE5E5" Offset="0.991"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="112" Width="281" RenderTransformOrigin="0.498,0.493" FontSize="36" TextAlignment="Right" FontFamily="HelveticaNeueCyr">
-            <TextBlock.Effect>
-                <DropShadowEffect Opacity="0.5"/>
-            </TextBlock.Effect>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="112" Width="281" RenderTransformOrigin="0.498,0.493" FontSize="36" FontFamily="HelveticaNeueCyr" Opacity="0.6" TextAlignment="Right">
             <TextBlock.Background>
                 <SolidColorBrush Color="#FFE8E9EA"/>
             </TextBlock.Background>
@@ -38,9 +35,9 @@
             <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="1" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="2" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
-            <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
+            <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Grid.Row="1" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
-            <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Grid.Row="2" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
+            <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Grid.Row="2" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="3" Grid.Row="3" Background="#FFC3C3C3" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="2" Grid.Row="1" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
             <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Grid.Column="2" Grid.Row="2" FontFamily="HelveticaNeueCyr" FontSize="20" Foreground="#FF636363" BorderBrush="#FF767676"/>
